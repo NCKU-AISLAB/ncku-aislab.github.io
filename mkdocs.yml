@@ -1,0 +1,60 @@
+site_name: AI System Lab
+
+theme:
+  name: material
+  language: en
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+
+nav:
+  - About: index.md
+  - Advisor: advisor.md
+  - Team:
+    - members.md
+    - alumni.md
+  - Courses: courses.md
+
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  alternate:
+    - name: 繁體中文
+      link: /
+      lang: zh-TW
+    - name: English
+      link: /en/
+      lang: en
+
+plugins:
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          build: true
+        - locale: zh-TW
+          default: true
+          name: 繁體中文
+          build: true
