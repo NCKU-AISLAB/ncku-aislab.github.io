@@ -27,7 +27,9 @@ nav:
   - Team:
     - members.md
     - alumni.md
+  - Projects: projects.md
   - Courses: courses.md
+  - Awards: awards.md
 
 markdown_extensions:
   - toc:
