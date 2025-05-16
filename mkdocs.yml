@@ -27,6 +27,7 @@ nav:
   - Team:
     - members.md
     - alumni.md
+  - Publications: publications.md
   - Projects: projects.md
   - Courses: courses.md
   - Awards: awards.md
