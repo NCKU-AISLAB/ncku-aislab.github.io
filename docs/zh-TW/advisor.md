@@ -17,7 +17,7 @@ hide:
 ### 學歷
 
 - 2020 Ph.D., Institute of Electronics, National Chiao Tung University, HsinChu, Taiwan
-- 2015 Ph.D., Department of Electronic Engineering, National Chiao Tung University, HsinChu, Taiwan
+- 2015 B.S., Department of Electronic Engineering, National Chiao Tung University, HsinChu, Taiwan
 
 ### 經歷
 
